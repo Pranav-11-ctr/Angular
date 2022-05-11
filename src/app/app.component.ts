@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { disableDebugTools } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
@@ -7,11 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Get input box value and display';
- count=0;
- getValue(val:string)
- {
-   val==='add'?this.count++:this.count--;
- }
+ 
+  displayval1='Pranav';
+  disable1=true;
+  displayval2='Murari';
+  disable2=false;
   
 
   
