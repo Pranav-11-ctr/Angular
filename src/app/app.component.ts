@@ -7,12 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Get input box value and display';
-  displayVal:string='';
-  getValue(val :string)
-  {
-    console.warn(val);
-    this.displayVal=val;
-  }
+ count=0;
+ getValue(val:string)
+ {
+   val==='add'?this.count++:this.count--;
+ }
   
 
   
