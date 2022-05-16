@@ -7,12 +7,10 @@ import { disableDebugTools } from '@angular/platform-browser';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Get input box value and display';
+  title = 'If else Condition';
  
-  displayval1='Pranav';
-  disable1=true;
-  displayval2='Murari';
-  disable2=false;
+  
+  show=true;
   
 
   
