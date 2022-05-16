@@ -1,4 +1,7 @@
 {{title}}
-<h1 *ngIf="show">
+<h1 *ngIf="show else elseBlock">
     Hii My name is Pranav Kumar
 </h1>
+<ng-template #elseBlock> 
+<H1>else block is executed</H1>
+</ng-template>
