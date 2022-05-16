@@ -10,7 +10,7 @@ export class AppComponent {
   title = 'If else Condition';
  
   
-  show=false;
+  show=true;
   
 
   

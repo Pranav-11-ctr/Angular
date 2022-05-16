@@ -1,7 +1,10 @@
 {{title}}
-<h1 *ngIf="show else elseBlock">
-    Hii My name is Pranav Kumar
+<h1 *ngIf="show;then ifBlock else elseBlock">
+
 </h1>
-<ng-template #elseBlock> 
-<H1>else block is executed</H1>
+<ng-template #ifBlock>
+<h1>If block is executed</h1>
+</ng-template>
+<ng-template #elseBlock>
+<h1>else block is executed</h1>
 </ng-template>
