@@ -7,8 +7,8 @@ import { disableDebugTools } from '@angular/platform-browser';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Multiple condition or  else Condition';
-  color='green';
+  title = 'Switch Case';
+  color='green2';
   
 
   
