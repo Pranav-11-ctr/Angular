@@ -1,10 +1,12 @@
 {{title}}
-<h1 *ngIf="pranav==='yes';then yesBlock else noBlock" >
-
-</h1>
-<ng-template #yesBlock>
-<h1>Pranav is Present</h1>
+<ng-template [ngIf]="color==='red'">
+    <h1 style="color: red;">Red color</h1>
 </ng-template>
-<ng-template #noBlock>
-<h1>Pranav is not present</h1>
+<ng-template [ngIf]="color==='green'">
+    <h1 style="color: green;">Green Color</h1>
 </ng-template>
+<ng-template [ngIf]="color==='blue'">
+    <h1 style="color:blue ;">Blue Color</h1>
+</ng-template>
+<!-- Here most important thing is here ther is no *ngIf 
+here we use [ngIf]-->

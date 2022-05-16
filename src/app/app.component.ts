@@ -7,10 +7,8 @@ import { disableDebugTools } from '@angular/platform-browser';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'If else Condition';
- 
-  
-  pranav='yes1';
+  title = 'Multiple condition or  else Condition';
+  color='green';
   
 
   
