@@ -10,7 +10,7 @@ export class AppComponent {
   title = 'If else Condition';
  
   
-  show=true;
+  pranav='yes1';
   
 
   

@@ -1,10 +1,10 @@
 {{title}}
-<h1 *ngIf="show;then ifBlock else elseBlock">
+<h1 *ngIf="pranav==='yes';then yesBlock else noBlock" >
 
 </h1>
-<ng-template #ifBlock>
-<h1>If block is executed</h1>
+<ng-template #yesBlock>
+<h1>Pranav is Present</h1>
 </ng-template>
-<ng-template #elseBlock>
-<h1>else block is executed</h1>
+<ng-template #noBlock>
+<h1>Pranav is not present</h1>
 </ng-template>
