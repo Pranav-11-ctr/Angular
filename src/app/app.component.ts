@@ -8,13 +8,13 @@ import {NgForm} from '@angular/forms'
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Basic Form';
-  userData:any={};
-  getData(data:NgForm)
+  title = 'Toggle Element';
+  display=false;
+  toggle()
   {
-   console.warn(data)
-   this.userData=data
+    this.display=!this.display
   }
+  
   
   
  
