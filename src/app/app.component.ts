@@ -1,6 +1,5 @@
-import { CssSelector } from '@angular/compiler';
 import { Component } from '@angular/core';
-import { disableDebugTools } from '@angular/platform-browser';
+import {NgForm} from '@angular/forms'
 
 
 @Component({
@@ -9,7 +8,13 @@ import { disableDebugTools } from '@angular/platform-browser';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Header Component';
+  title = 'Basic Form';
+  userData:any={};
+  getData(data:NgForm)
+  {
+   console.warn(data)
+   this.userData=data
+  }
   
   
  
