@@ -9,14 +9,8 @@ import { disableDebugTools } from '@angular/platform-browser';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Style Binding';
-  color='blue';
-  bgcolor='grey'
-  upButton()
-  {
-    this.color='pink'
-    this.bgcolor='red'
-  }
+  title = 'Header Component';
+  
   
  
   
