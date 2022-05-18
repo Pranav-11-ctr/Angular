@@ -1,18 +1,9 @@
 {{title}}
-<h1>
-    Normal Loop
-</h1>
-<h3 *ngFor="let item of users"> Name : {{item}}</h3>
-<br><br>
-<h2>Array of objects for loop</h2>
-<h3 *ngFor="let items of userList">{{items.name}} {{items.Roll}} {{items.Branch}}</h3>
-<br><br>
-<h2>Nested For loop</h2>
-<ul *ngFor="let item of studentList">
-    <li>{{item.name}}</li>
-    <li>{{item.Roll}}</li>
-    <li>Language</li>
-    <ul *ngFor="let lan of item.Language">{{lan}}</ul>
-</ul>
+<h1>How are you</h1>
+<h1 [style.color]=" 'green'" [style.backgroundColor]="'red'"> Pranav Kumar</h1>
+<!--Above is the example of static binding-->
+
+<button [style.color]="color" [style.bgcolor]="bgcolor" (click)="upButton()">This is an Example of Dynamic Binding</button>
+<!-- Above is an Example of dynamic Binding or style binding-->
 
 
